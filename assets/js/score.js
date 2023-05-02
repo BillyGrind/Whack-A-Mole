@@ -1,11 +1,10 @@
-import { gameScore } from "./const"
+let score = 0;
+let scoreBoard = document.getElementsByClassName("game-score")[0];
+let scoreElement = document.createElement("p");
+scoreElement.textContent = `Score:${score}`;
+scoreBoard.appendChild(scoreElement);
 
-
-
-function addScore(){
-    
+export function addScore() {
+  score++;
+  scoreElement.textContent = `Score:${score}`;
 }
-
-
-
-<p class="game-score-text">Score :</p>

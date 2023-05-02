@@ -1,0 +1,22 @@
+body {
+  background-color: aqua;
+}
+.game-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.game-hole {
+  display: grid;
+  width: 1000px;
+  height: 600px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+}
+

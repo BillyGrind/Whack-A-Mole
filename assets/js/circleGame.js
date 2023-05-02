@@ -7,6 +7,9 @@ function randomTime(min, max) {
 export function randomizeCircleSelection() {
   for (let i = 0; i < gameCircles.length; i++) {
     gameCircles[i].style.backgroundColor = "yellow";
+    gameCircles[i].addEventListener("click",()=>{
+      return;
+    })
   }
   let randomIndex = Math.floor(Math.random() * gameCircles.length);
   let circleToHit = gameCircles[randomIndex];

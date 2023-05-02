@@ -5,6 +5,6 @@ scoreElement.textContent = `Score:${score}`;
 scoreBoard.appendChild(scoreElement);
 
 export function addScore() {
-  score++;
+  score += 1;
   scoreElement.textContent = `Score:${score}`;
 }

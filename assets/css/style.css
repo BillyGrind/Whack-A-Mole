@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
 body {
-  background-color: aqua;
+  background-color: #dfbe99;
+}
+
+h1 {
+  font-family: "Sigmar", cursive;
+  font-weight: 400;
+  color: #db5375;
+  font-size: 50px;
+  margin: 0px;
 }
 
 .game-container {
@@ -8,6 +17,20 @@ body {
   justify-content: center;
   text-align: center;
   margin: auto;
+}
+
+.game-score {
+  margin: auto;
+}
+
+p {
+  font-family: "Sigmar", cursive;
+  color: #db5375;
+  font-weight: 400;
+  font-size: 30px;
+  border-radius: 20px;
+  background-color: #b5bd89;
+  width: 400px;
 }
 
 .game-hole {
@@ -19,4 +42,38 @@ body {
   align-items: center;
   justify-items: center;
   justify-content: space-around;
+  margin: auto;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button {
+  background-color: #ec9192;
+  color: #dfbe99;
+  font-family: "Sigmar", cursive;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.game-button {
+  margin: 15px auto;
+  display: inline;
+  justify-items: space-between;
+  width: 400px;
 }/*# sourceMappingURL=style.css.map */

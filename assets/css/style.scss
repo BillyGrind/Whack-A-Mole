@@ -1,5 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&display=swap");
+
+$Moonstone: #729ea1;
+$Sage: #b5bd89;
+$Tan: #dfbe99;
+$Light_Coral: #ec9192;
+$Blush: #db5375;
+
 body {
-  background-color: aqua;
+  background-color: $Tan;
+}
+h1 {
+  font-family: "Sigmar", cursive;
+  font-weight: 400;
+  color: $Blush;
+  font-size: 50px;
+  margin: 0px;
 }
 .game-container {
   display: flex;
@@ -8,7 +23,18 @@ body {
   text-align: center;
   margin: auto;
 }
-
+.game-score {
+  margin: auto;
+}
+p {
+  font-family: "Sigmar", cursive;
+  color: #db5375;
+  font-weight: 400;
+  font-size: 30px;
+  border-radius: 20px;
+  background-color: #b5bd89;
+  width: 400px;
+}
 .game-hole {
   display: grid;
   width: 600px;
@@ -18,4 +44,38 @@ body {
   align-items: center;
   justify-items: center;
   justify-content: space-around;
+  margin: auto;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button {
+  background-color: #ec9192;
+  color: $Tan;
+  font-family: "Sigmar", cursive;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+
+.game-button {
+  margin: 15px auto;
+  display: inline;
+  justify-items: space-between;
+  width: 400px;
 }

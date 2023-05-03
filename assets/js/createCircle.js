@@ -7,7 +7,7 @@ export function createCircle(c) {
     circle.style.width = "100px";
     circle.style.height = "100px";
     circle.style.borderRadius = "50%";
-    circle.style.backgroundColor = "yellow";
+    circle.style.backgroundColor="#729ea1";
     circle.classList.add("circle");
     gameHole.appendChild(circle);
   }

@@ -6,7 +6,7 @@ function randomTime(min, max) {
 
 export function randomizeCircleSelection() {
   for (let i = 0; i < gameCircles.length; i++) {
-    gameCircles[i].style.backgroundColor = "yellow";
+    gameCircles[i].style.backgroundColor = "#729ea1";
     gameCircles[i].addEventListener("click",()=>{
       return;
     })
@@ -14,10 +14,10 @@ export function randomizeCircleSelection() {
   let randomIndex = Math.floor(Math.random() * gameCircles.length);
   let circleToHit = gameCircles[randomIndex];
 
-  circleToHit.style.backgroundColor = "red";
+  circleToHit.style.backgroundColor = "#db5375";
   circleToHit.addEventListener("click",()=>{
     addScore();
   });
 }
 
-setInterval(randomizeCircleSelection, 1000);
+// setInterval(randomizeCircleSelection, randomTime(600,1000));

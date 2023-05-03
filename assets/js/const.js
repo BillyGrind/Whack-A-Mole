@@ -1,3 +1,4 @@
+//Define some const
 export const gameContainer =
   document.getElementsByClassName("game-container")[0];
 export const gameHole = document.getElementsByClassName("game-hole")[0];
